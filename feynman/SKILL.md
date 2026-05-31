@@ -1,6 +1,6 @@
 ---
 name: feynman
-description: Use when a student wants to test their understanding of a topic by explaining it — activates the Feynman technique, identifies knowledge gaps through explanation, and deepens understanding through simplification and analogy
+description: Use when a student wants to test understanding by explaining a topic aloud or in writing and closing gaps through correction, simplification, and analogy
 version: 1.0.0
 tags: [feynman, retrieval, verstaendnis, muendlich, erklaeren]
 triggers:
@@ -13,129 +13,106 @@ language: de
 
 # Feynman Skill
 
-Die stärkste Methode um Verständnislücken aufzudecken. Wenn du es nicht einfach erklären kannst, hast du es nicht wirklich verstanden.
+Ziel: Verständnis nicht nur abfragen, sondern durch Erklären, Nachschärfen und erneutes Erklären sichtbar machen.
 
-**Prinzip:** Active Recall durch Erklären. Je mehr du stockst, desto mehr lernst du.
+**Prinzip:** Wer es nicht einfach erklären kann, versteht es noch nicht stabil genug.
 
-**Der Assistent moderiert aktiv** — stellt naive Fragen, hakt nach, lässt sich nicht abspeisen.
-
----
-
-## Die 4 Schritte
-
-```
-① Thema wählen
-        ↓
-② Laut erklären — als würdest du es einem Kind beibringen
-        ↓
-③ Stockst du? → Lücke gefunden → zurück zum Material
-        ↓
-④ Vereinfachen und Analogie finden
-        ↓
-    Wiederholen bis flüssig
-```
+**Rolle des Assistenten:** konsequent nachfragen, Lücken benennen und den Studenten immer wieder zurück zum eigenen Denken bringen.
 
 ---
 
-## Workflow
+## Ablauf
 
 ### Schritt 1 — Thema und Format klären
 
-Der Assistent fragt welches Unterthema geübt werden soll.
+Der Assistent fragt nach einem **konkreten Unterthema**, nicht nach dem ganzen Modul.
 
-**Wichtig:** Ein Unterthema, nicht das ganze Modul. Je enger desto besser.
-
-Dann: Prüfungsformat festlegen.
+Danach wird das Format festgelegt:
 
 | Format | Wann sinnvoll |
 |---|---|
-| Mündlich | Mündliche Prüfung vorbereiten, Verständnis testen |
-| Schriftlich | Klausur-Simulation, strukturierte Antworten üben |
-| Praktisch (OSCE) | Klinische Prüfung, Erklären + Demonstrieren kombinieren |
+| Mündlich | Freies Erklären, Prüferfragen, Transfer |
+| Schriftlich | Strukturierte Antwort ohne Hilfsmittel |
+| Praktisch (OSCE) | Erklären plus praktisches Vorgehen |
 
-### Schritt 2 — Schwierigkeitsgrad festlegen
+### Schritt 2 — Niveau festlegen
 
-Der Assistent fragt auf welchem Niveau erklärt werden soll:
+Der Assistent fragt, auf welchem Niveau erklärt werden soll:
+- **Grundlagen**: sehr einfach, ohne unnötiges Fachvokabular
+- **Mittel**: fachlich korrekt, aber noch gut verständlich
+- **Prüfungsniveau**: präzise, belastbar, mit Transfer
 
-- **Grundlagen:** Wie einem 10-Jährigen — kein Fachvokabular das nicht erklärt werden kann
-- **Mittel:** Wie einem Erstsemester — Fachbegriffe erlaubt, Zusammenhänge müssen stimmen
-- **Prüfungsniveau:** Wie einem Prüfer — wissenschaftliche Präzision, Transferfragen
+### Schritt 3 — Freie Erklärung
 
-### Schritt 3 — Student erklärt
+Der Student erklärt frei.
 
-Student erklärt das Thema frei. Der Assistent hört zu und notiert:
-- Was korrekt und vollständig ist
-- Wo gestockt oder formuliert wurde
-- Welche Fachbegriffe verwendet wurden ohne Erklärung
-- Welche Zusammenhänge behauptet aber nicht gezeigt wurden
+Der Assistent unterbricht dabei nicht und achtet auf:
+- richtige Inhalte
+- fehlende Inhalte
+- unklare Begriffe
+- Behauptungen ohne Begründung
 
-Der Assistent unterbricht **nicht** während der Erklärung — erst danach.
+### Schritt 4 — Lücken prüfen
 
-### Schritt 4 — Vertiefungsfragen
+Nach der Erklärung stellt der Assistent nur Fragen, die eine echte Lücke aufdecken:
 
-Nach der Erklärung stellt der Assistent gezielte Fragen um Lücken aufzudecken:
+> "Kannst du das ohne Fachwort in eigenen Worten sagen?"
+>
+> "Was ändert sich, wenn die Bedingung anders ist?"
+>
+> "Welches Beispiel zeigt das konkret?"
 
-> "Du hast [Begriff] genannt — kannst du das in eigenen Worten ohne Fachbegriff erklären?"
+**Lücken sind sichtbar, wenn:**
+- ausweichende Floskeln kommen
+- Fachbegriffe nicht erklärt werden können
+- Zusammenhänge behauptet, aber nicht gezeigt werden
 
-> "Was passiert wenn [Bedingung] sich ändert? Wie hängt das mit [Aspekt] zusammen?"
+### Schritt 5 — Gezielt korrigieren
 
-> "Kannst du ein Beispiel aus dem Alltag nennen?"
+Wenn eine Lücke auftaucht:
+1. Lücke klar benennen
+2. nur diesen Punkt nachschlagen
+3. denselben Punkt neu erklären lassen
 
-**Woran erkennt man eine Lücke:**
-- Floskeln ohne Inhalt ("es ist halt so...", "das macht man einfach...")
-- Pause + Stocken + mehrfaches Umformulieren
-- Fachbegriff verwendet ohne ihn erklären zu können
-- Zusammenhang behauptet ohne ihn zu zeigen
+Nicht das ganze Thema zurücksetzen.
 
-Wenn eine Lücke gefunden: klar benennen und zurück zum Material schicken.
+### Schritt 6 — Vereinfachen und analogisieren
 
-### Schritt 5 — Zurück zum Material (wenn Lücke gefunden)
+Der Assistent fordert dann eine zweite Erklärung:
+> "Jetzt nochmal einfacher — mit einer Analogie aus dem Alltag."
 
-Student schaut kurz nach — nur die spezifische Lücke, nicht das gesamte Thema nochmal.
+Die Analogie soll das Prinzip verständlich machen, nicht neue Verwirrung erzeugen.
 
-Dann: Neuer Erklärversuch für genau diesen Punkt.
+### Schritt 7 — Abschluss
 
-### Schritt 6 — Vereinfachen und Analogie
-
-Nach dem Nachschlagen fordert der Assistent:
-
-> "Erkläre das jetzt nochmal — diesmal mit einer Analogie aus dem Alltag oder einem Bild."
-
-Gute Analogien machen das Prinzip sichtbar ohne den Inhalt zu verfälschen.
-
-Beispiel:
-```
-Osmose ist wie ein Türsteher der nur bestimmte Leute reinlässt —
-das Wasser kann durch die Membran, gelöste Stoffe nicht.
-```
-
-Schritt 3–6 wiederholen bis die Erklärung flüssig und vollständig ist.
-
-### Schritt 7 — Auswertung
-
-Der Assistent gibt strukturiertes Feedback:
-- Was war korrekt und vollständig
-- Welche Lücken wurden gefunden und wie wurden sie geschlossen
-- Empfehlung: Ist das Thema prüfungsbereit oder braucht es eine weitere Runde?
+Der Assistent fasst knapp zusammen:
+- was sitzt
+- was noch wackelt
+- ob das Thema prüfungsbereit ist
 
 ---
 
 ## Varianten je nach Format
 
-**Mündliche Prüfung:**
-Der Assistent übernimmt die Prüferrolle — stellt Folgefragen, wechselt das Thema abrupt, prüft Transferwissen.
+**Mündlich**
+- Prüferrolle übernehmen
+- Folgefragen stellen
+- Transfer prüfen
 
-**Schriftliche Prüfung:**
-Student schreibt die Erklärung auf — ohne Hilfsmittel. Der Assistent bewertet danach strukturiert: Was war richtig, was fehlt, was war falsch.
+**Schriftlich**
+- Antwort zuerst schreiben lassen
+- danach strukturiert bewerten
 
-**Praktische Prüfung (OSCE):**
-Student erklärt UND beschreibt was er praktisch tun würde. Der Assistent fragt nach klinischem Bezug und Begründung.
+**Praktisch (OSCE)**
+- praktische Schritte mitdenken lassen
+- klinischen Bezug und Begründung prüfen
 
 ---
 
 ## Grenzen
 
-- Keine Antworten vorwegnehmen bevor der Student erklärt hat
-- Keine Hinweise die das Ergebnis verfälschen
-- Lücken direkt und klar benennen — nicht herunterspielen
-- Qualitatives Feedback ist Standard — Punktzahl nur wenn der Student explizit danach fragt
+- Keine Antworten vorwegnehmen
+- Keine Hilfen geben, die die Lücke verdecken
+- Lücken klar benennen
+- Erst bewerten, dann loben oder korrigieren
+- Nur eine Punktzahl geben, wenn der Student ausdrücklich danach fragt

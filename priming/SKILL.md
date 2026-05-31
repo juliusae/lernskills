@@ -1,6 +1,6 @@
 ---
 name: priming
-description: Use when a student wants to learn a new topic and needs to build a cognitive framework before reading material — activates prior knowledge, creates curiosity, and builds mental hooks before information intake
+description: Use before first contact with a new topic to activate prior knowledge, create curiosity, and build a clear mental framework before reading or lecture
 version: 1.0.0
 tags: [priming, lernen, brainstorming, schluesselwoerter, neugier]
 triggers:
@@ -13,118 +13,102 @@ language: de
 
 # Priming Skill
 
-Ziel: Das Gehirn so aktivieren, dass neue Informationen als relevant eingespeichert werden — kein Überblick, sondern ein emotionaler und kognitiver Zustand der Neugier und Offenheit.
+Ziel: Vor der eigentlichen Informationsaufnahme ein belastbares Denkgerüst aufbauen, damit neue Inhalte andocken können.
 
 **Zeitaufwand:** 10–15 Minuten.
 
-**Wann:** Immer VOR der ersten echten Informationsaufnahme — vor der Vorlesung, vor dem Skript, vor dem Encoding. Nie danach.
+**Wann:** Immer vor der ersten echten Informationsaufnahme — vor Vorlesung, Skript oder Encoding. Nicht danach.
 
-**Der Assistent moderiert diese Phase vollständig und aktiv.**
-
-**Prinzip:** Das Wissen und aktive Hinterfragen des Studenten steht immer im Vordergrund — keine fertigen Erklärungen, keine vorgelegten Listen. Der Student erarbeitet alles selbst.
+**Rolle des Assistenten:** aktiv moderieren, lenken und nachfragen. Keine fertigen Erklärungen vorgeben.
 
 ---
 
-## Kernprinzip — Fischernetz, nicht Häkeln
+## Kernprinzip — Erst das Netz, dann der Inhalt
 
-Priming baut von außen nach innen. Erst das grobe Netz (Überthemen, Grundstruktur), dann immer dichter.
+Priming baut von außen nach innen:
+1. Überthema
+2. Hauptbereiche
+3. Unterthemen
+4. Begriffe und offene Fragen
 
-**Häufiger Fehler:** In ein einzelnes Unterthema abtauchen während der Rest des Themas komplett unklar bleibt. Das führt zu isoliertem Wissen ohne Anknüpfungspunkte.
-
-**Richtig:** Ebene für Ebene tiefer — erst wenn eine Ebene steht, geht man eine Ebene tiefer.
-
----
-
-## 2-Phasen-Struktur
-
-### Phase 1 — Aus dem Kopf (1–3 Minuten)
-Reines Brainstorming ohne Hilfsmittel. Was weiß ich? Was verbinde ich damit? Was interessiert mich?
-
-Ziel: Vorhandenes Netz aktivieren, Neugier erzeugen, offene Fragen aufwerfen.
-
-### Phase 2 — Mit dem Stoff (5–10 Minuten)
-Kurzer Scan von Überschriften, Unterüberschriften, Schlüsselbegriffen — NICHT in die Tiefe lesen.
-
-Ziel: Phase-1-Brainstorming auf das tatsächliche Thema ausrichten. Lücken und neue Fragen identifizieren.
+Der Assistent stoppt jeden Sprung in die Tiefe, solange die aktuelle Ebene noch nicht sitzt.
 
 ---
 
 ## Workflow
 
-### Schritt 1 — Thema klären
+### Schritt 1 — Thema eingrenzen
 
-Der Assistent fragt welches Unterthema als nächstes drankommt.
+Der Assistent fragt nach dem nächsten Unterthema oder, falls nötig, nach dem Oberthema.
 
-Timing-Empfehlung:
-- **Ideal:** Kurz vor der Vorlesung oder Informationsaufnahme
-- **Okay:** Am Tag davor
-- **Wenn keine Unterlagen vorhanden:** Breiter ansetzen, Überthema priemen — Best Guess ist besser als kein Priming
-- **Wenn gar nicht möglich:** Vor dem Encoding nachholen
+**Wenn keine Unterlagen da sind:** Best Guess reicht. Breiter primen ist besser als gar nicht primen.
 
-### Schritt 2 — Phase 1: Brainstorming aus dem Kopf
+### Schritt 2 — Phase 1: Aus dem Kopf
 
-Der Assistent fragt:
-> "Was weißt du bereits über [Thema]? Brainstorme frei — was verbindest du damit, was erinnerst du, was fällt dir ein?"
-
-Student spricht oder schreibt frei. Der Assistent hört zu, notiert Begriffe, stellt keine Inhalte vor.
+Der Assistent lässt frei brainstormen:
+> "Was weißt du schon darüber?"
+>
+> "Womit verbindest du das?"
+>
+> "Warum könnte das wichtig sein?"
 
 Dann:
-> "Warum könnte dieses Thema wichtig sein? Was hat es mit der echten Welt zu tun?"
+> "Welche Vermutung hast du, wie das funktionieren könnte?"
 
-**Ziel:** Emotionale Relevanz und erste Anknüpfungspunkte schaffen. Je mehr Emotionen und persönliche Verknüpfungen, desto besser die spätere Speicherung.
+**Ziel:** Vorwissen aktivieren, Relevanz erzeugen, Hypothesen aufbauen.
 
-Dann Hypothesen formulieren lassen:
-> "Was vermutest du, wie das funktioniert? Stelle eine Hypothese auf — auch wenn sie falsch ist."
+### Schritt 3 — Relevanz und Anker
 
-### Schritt 3 — Multisensorische Anker schaffen
+Der Assistent fordert mindestens einen Anker an:
+- Alltagssituation
+- persönlicher Bezug
+- Bild oder Vorstellung
+- Kontrast: Was wäre ohne dieses Wissen?
 
-Der Assistent schlägt vor:
-- Bilder zum Thema kurz anschauen (visueller Anker)
-- Persönliche Erfahrung oder Geschichte damit verknüpfen
-- Kontraste herstellen: Was wäre ohne dieses Wissen schlimmer? Wo begegnet einem das im Alltag?
+**Regel:** Keine Erklärung durch den Assistenten, nur lenken.
 
-**Warum:** Wir lernen nicht mit einem Sinn — wir lernen multisensorisch. Je mehr Sinne und Emotionen aktiviert werden, desto tiefer die Speicherung.
+### Schritt 4 — Phase 2: Mit dem Stoff scannen
 
-### Schritt 4 — Phase 2: Scan mit dem Stoff
+Der Student scannt nur Überschriften, Unterüberschriften und Schlüsselbegriffe.
 
-Student scannt Unterlagen (Skript, Folien, Inhaltsverzeichnis) — nur Überschriften und Schlüsselbegriffe, kein Lesen.
+Danach fragt der Assistent:
+> "Was war neu?"
+>
+> "Was hat dich überrascht?"
+>
+> "Welche Begriffe fehlen noch?"
 
-Der Assistent fragt danach:
-> "Was hat dich überrascht? Welche Begriffe sind neu? Was fehlt in deinem Brainstorming?"
+### Schritt 5 — Schlüsselbegriffe hierarchisch bauen
 
-Offene Fragen ergänzen — diese werden in der Vorlesung und beim Lesen aktiv gesucht.
+Der Assistent arbeitet sokratisch mit dem Studenten:
+- erst Überthemen
+- dann Hauptkonzepte
+- dann Details
 
-### Schritt 5 — Schlüsselwörter erarbeiten (sokratisch)
+Ergebnis ist eine klare Hierarchie im Chat, nicht eine fertige Lernzusammenfassung.
 
-Der Assistent führt den Studenten durch gezielte Fragen zur eigenständigen Erarbeitung der Schlüsselwörter.
+### Schritt 6 — Offene Fragen sichern
 
-Kein Vorlegen einer fertigen Liste — der Student erarbeitet sie selbst, der Assistent ergänzt und strukturiert.
-
-Dabei wird das Thema hierarchisch aufgebaut: Vom Überthema zu den Hauptkonzepten, von den Hauptkonzepten zu den Unterthemen — immer eine Ebene tiefer wenn die aktuelle Ebene steht.
-
-Ergebnis: Eine hierarchische Liste im Chat (Format: 1. → 1.1 → 1.1.1)
-
-### Schritt 6 — Verknüpfungen und Open Loops
-
-Student befragt zu:
-- Wie hängen die Schlüsselwörter zusammen?
-- Welche Verbindungen siehst du zu anderen Themen oder anderen Fächern?
+Der Assistent fragt:
+- Wie hängen die Begriffe zusammen?
 - Welche Fragen sind noch offen?
+- Was muss in der Vorlesung oder beim Lesen gezielt geprüft werden?
 
-**Open Loops sind das Ziel:** Offene Fragen erzeugen Spannung die man in der Vorlesung schließen will. Das erhöht die Aufmerksamkeit und die Speichertiefe automatisch.
+Offene Fragen bleiben sichtbar, damit sie später aktiv geschlossen werden können.
 
 ### Schritt 7 — Abschluss
 
-Kurze Zusammenfassung: Was der Student jetzt weiß, was noch offen ist, welche Fragen er in die Vorlesung oder das Skript mitnimmt.
-
-Empfehlung was als nächstes kommt — Informationsaufnahme, Vorlesung, oder direkt ins Encoding.
+Kurz festhalten:
+- was schon bekannt ist
+- was noch unklar ist
+- womit als Nächstes weitergemacht wird
 
 ---
 
 ## Grenzen
 
-- Kein Vorlegen fertiger Schlüsselwortlisten — der Student erarbeitet selbst
-- Keine Zusammenfassungen des Quellmaterials
-- Priming geht nicht tief — das ist Aufgabe des Encodings
-- Der Assistent erklärt nur auf Nachfrage oder wenn der Student feststeckt
-- Wenn keine Unterlagen vorhanden: Best Guess ist besser als kein Priming
+- Keine fertigen Schlüsselwortlisten vorgeben
+- Keine Inhaltszusammenfassung liefern
+- Keine Tiefe vorwegnehmen
+- Nur dann erklären, wenn der Student feststeckt
+- Wenn Unterlagen fehlen: trotzdem primen, nicht abbrechen
